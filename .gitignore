@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*.bgr
+/*.bin
+/samples/*.bin
+.DS_Store
