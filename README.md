@@ -49,7 +49,7 @@ python3 holoctl.py convert input.mp4 SMALL.bin --scale 0.40 --duration 6
 python3 holoctl.py convert input.mp4 TURN.bin --rotation-deg 0 --duration 6
 ```
 
-The default `--rotation-deg 180` matched the included mapping probe best. Try `0`, `90`, or `270` if the fan displays the orientation differently. Other options include `--center-x`, `--center-y`, `--start`, `--hflip`, and `--vflip`. Conversion refuses to overwrite an existing output file.
+The default `--rotation-deg 180` matched the mapping probe used during testing. Try `0`, `90`, or `270` if the fan displays the orientation differently. Other options include `--center-x`, `--center-y`, `--start`, `--hflip`, and `--vflip`. Conversion refuses to overwrite an existing output file.
 
 ## Inspect and copy to the SD card
 
